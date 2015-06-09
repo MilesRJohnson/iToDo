@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14D105g" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Items" representedClassName="Items" syncable="YES">
+        <attribute name="dateAssigned" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="dateUpdated" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="itemComplete" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="itemDateAssigned" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="itemDateComplete" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="itemDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemImportance" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="itemName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Items" positionX="-54" positionY="-9" width="128" height="165"/>
+    </elements>
+</model>
